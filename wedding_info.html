@@ -1,0 +1,155 @@
+<html>
+    <title>Wedding Information</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Navbar (sticky bottom) -->
+    <head>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="styles.css"> 
+        </head>
+    <style>
+body,h1,h2{font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+p {line-height: 1.5}
+
+</style>
+    <body>
+<div class="topnav navpad">
+  <a href="http://courtneymichael2019.com/">Home</a>
+    <a href="http://courtneymichael2019.com/about.html">Our Story</a>
+  <a class="active" href="http://courtneymichael2019.com/wedding_info.html">Wedding Info</a>
+  <a href="http://courtneymichael2019.com/wparty.html">The Wedding Party</a>
+     <a href="http://courtneymichael2019.com/photos.html">Photos</a>  
+</div>
+
+
+
+<!-- Background photo -->
+<header class="wide bgimg2 grey75">
+  <div class="midPhotoText">
+    <h1 class="announ2">Please Join Us</h1>
+    <h2 class="announ2"><b>8.24.2019</b></h2>
+  </div>
+</header>
+
+<!-- Wedding information -->
+<div class="about" id="wedding">
+<ul class="about">
+  <li>CEREMONY</li>
+    <br>
+  <ul style="list-style-type:none">
+    <li><a href="https://st-pats.org/">St. Patrick Parish</a></li>
+  <li>85 Washington Avenue</li>
+  <li>Chatham NJ 07928 </li>
+      <br>
+      <div id="googleMap2" style="width:50%;height:300px;"></div>
+      <br>
+      <br>
+</ul> 
+  <li>RECEPTION</li>
+    <br>
+    <ul style="list-style-type:none">
+        <li><a href="https://libertyhouserestaurant.com/">Liberty House</a></li>
+  <li>76 Audrey Zapp Dr.</li>
+  <li>Jersey City NJ 07305</li>
+        <br>
+       <div id="googleMap" style="width:50%;height:300px;"></div>
+        <br>
+        <br>
+    </ul> 
+  <li>ACCOMODATIONS</li>
+    <br>
+    <ul style="list-style-type:none">
+  <li>Hyatt House Jersey City
+One Exchange Place
+Jersey City, New Jersey, 07302</li>
+<li>
+Guests can book hotel rooms online at the following link or by calling the 
+  </li>
+       <li> 
+Reservation Hotline @1-800-993-4983 and asking for the Chupka / Patson Wedding room rate. 
+  </li>
+       <li>          
+           Guests must reserve rooms by July 10, 2019.
+</li>
+
+        <li><a href="https://www.hyatt.com/shop/lgaxj?location=Hyatt%20House%20Jersey%20City&checkinDate=2019-08-24&checkoutDate=2019-08-25&rooms=1&adults=1&kids=0&corp_id=g-chpa">Hyatt House, Jersey City</a></li>
+     
+
+            
+</ul>
+    <br>
+    <br>
+    
+  <li>Directions</li>  
+    
+    <li style="list-style-type:none">
+    
+    
+<div style="height:100;width:500;border:2px solid #ccc;overflow:auto;">
+<ul>
+  <li>Get on NJ-24 E in Summit from Main St</li>
+    <br>
+  <li>Follow NJ-24 E, I-78 Express E/Phillipsburg-Newark Expy and I-78 E to Jersey City Blvd in Jersey City. </li>
+    <br>
+  <li>Take the exit toward Liberty Science Centre/Light Rail/Park Ride from I-78 E</li>
+    <br>
+  <li>
+    Take Phillip St and Audrey Zapp Dr to your destination
+    
+  </li>
+    <br>
+  <li><a href="https://www.google.com/maps/dir/St+Patrick+Church,+85+Washington+Ave,+Chatham,+NJ+07928/Liberty+House+Restaurant,+76+Audrey+Zapp+Dr,+Jersey+City,+NJ+07305/@40.6978564,-74.4023293,10.67z/am=t/data=!4m17!4m16!1m5!1m1!1s0x89c3af76b3a124ad:0x3398ae81e924e2e5!2m2!1d-74.3885169!2d40.7374165!1m5!1m1!1s0x89c2609ee82a1c03:0xe0e437daeab31cd7!2m2!1d-74.0399595!2d40.7092565!6m3!1i0!2i1!3i0">Or Follow Along With Google</a></li>
+    </ul>
+</div>
+    
+    
+    </li>
+</ul> 
+</div>
+   
+
+
+    
+<script>
+    
+function myMap() {
+var myLatLng = {lat: 40.7092565, lng: -74.0399595};
+var myLatLng2 = {lat: 40.7374165, lng: -74.3885169};
+var mapProp= {
+    center:new google.maps.LatLng(40.7092565,-74.0399595),
+    zoom:13,
+};
+var mapProp2= {
+    center:new google.maps.LatLng(40.7374165,-74.3885169),
+    zoom:13,
+};
+var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+var mapChatham=new google.maps.Map(document.getElementById("googleMap2"),mapProp2);
+var marker = new google.maps.Marker({
+    position: myLatLng,
+    map: map,
+  });
+var marker2 = new google.maps.Marker({
+    position: myLatLng2,
+    map: mapChatham,
+  });
+
+};
+</script>
+
+<script async defer
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBXRt8gPgUVPTYBGpTTBAsaIcunwqGTRa8&callback=myMap">
+</script>
+
+    
+<!-- Footer -->
+<footer class = "made">    <p>Made by Michael</p>
+</footer>
+   </body> 
+    
+</html>
+
+
+
+
